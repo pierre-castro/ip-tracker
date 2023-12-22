@@ -1,6 +1,8 @@
 import { MapContainer, TileLayer, Marker, useMap } from "react-leaflet";
 import L from "leaflet";
 
+import location_icon from "../assets/img/icon-location.svg";
+
 const position = { x: 0, y: 0 };
 position.x = -0.09;
 position.y = 51.505;
@@ -21,7 +23,7 @@ function Map({ ipInfos }) {
     },
   });
   var locationIcon = new LeafIcon({
-    iconUrl: "src/assets/img/icon-location.svg",
+    iconUrl: location_icon,
   });
 
   return (

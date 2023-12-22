@@ -1,3 +1,5 @@
+import arrow_icon from "../assets/img/icon-arrow.svg";
+
 function validateIPaddress(ipaddress) {
   if (
     /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(
@@ -33,7 +35,7 @@ function SearchBar({ setIp }) {
             setIp(document.getElementById("ipInput").value);
         }}
       >
-        <img src="src/assets/img/icon-arrow.svg" className="mx-auto" alt="" />
+        <img src={arrow_icon} className="mx-auto" alt="" />
       </button>
     </div>
   );
