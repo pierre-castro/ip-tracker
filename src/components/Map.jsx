@@ -14,8 +14,6 @@ function MyComponent({ lat, lng }) {
 }
 
 function Map({ ipInfos }) {
-  console.log("Map mounted with :", ipInfos);
-  // Icon creation
   var LeafIcon = L.Icon.extend({
     options: {
       iconSize: [30, 40],

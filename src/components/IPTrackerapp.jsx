@@ -23,7 +23,6 @@ function IPTrackerapp() {
       axios
         .get(ipify_url)
         .then((response) => {
-          console.log(response);
           setIpInfos({
             ip: response.data.ip,
             location: `${response.data.location.city},  ${response.data.location.country}`,
@@ -34,7 +33,7 @@ function IPTrackerapp() {
           });
         })
         .catch((error) => {
-          console.log(error);
+          console.error(error);
         });
     }
   }, [ip]);
