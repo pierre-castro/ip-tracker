@@ -17,8 +17,13 @@ function SearchBar({ setIp }) {
       <input
         id="ipInput"
         type="text"
-        className="h-full w-[90%] rounded-l-xl px-4 text-lg text-black"
+        className="h-full w-[90%] rounded-l-xl px-4 text-lg text-black focus:outline-none"
         placeholder="Search IP address"
+        onKeyDown={(e) => {
+          if (e.key === "Enter")
+            if (validateIPaddress(document.getElementById("ipInput").value))
+              setIp(document.getElementById("ipInput").value);
+        }}
       />
       <button
         className="h-full w-[10%] rounded-r-xl bg-black hover:bg-slate-800 hover:transition active:bg-slate-600"
