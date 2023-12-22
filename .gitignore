@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+#Template files
+!/**/.gitkeep
+
 # Frontendmentor challenges dir and files
 design
 README-template.md
