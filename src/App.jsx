@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import L from "leaflet";
 
 const position = { x: 0, y: 0 };
 position.x = -0.09;
