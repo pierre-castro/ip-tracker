@@ -33,7 +33,7 @@ function SearchBar({ setIp }) {
             setIp(document.getElementById("ipInput").value);
         }}
       >
-        <img src="../../images/icon-arrow.svg" className="mx-auto" alt="" />
+        <img src="src/assets/img/icon-arrow.svg" className="mx-auto" alt="" />
       </button>
     </div>
   );
