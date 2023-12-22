@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Frontendmentor challenges dir and files
+design
+README-template.md
+style-guide.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
