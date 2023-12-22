@@ -37,7 +37,7 @@ npm run dev
 
 ### Links
 
-- Live Site URL: _coming soon_
+- [Live Site URL](https://ip-tracker-rosy-xi.vercel.app/)
 
 ### Built with
 
