@@ -21,7 +21,7 @@ function Map({ ipInfos }) {
     },
   });
   var locationIcon = new LeafIcon({
-    iconUrl: "images/icon-location.svg",
+    iconUrl: "../../images/icon-location.svg",
   });
 
   return (
