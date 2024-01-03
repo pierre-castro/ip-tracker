@@ -42,7 +42,7 @@ npm run dev
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://vitejs.dev/) - React framework
+- [Vite.js](https://vitejs.dev/) - React framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 - [Leaflet](https://leafletjs.com/) - Interactive map API
 - [React Leaflet](https://react-leaflet.js.org/) - React library for Leaflet maps
